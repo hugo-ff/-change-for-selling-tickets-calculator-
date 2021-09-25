@@ -1,0 +1,32 @@
+{
+	"name": "selling-tickets-change-calculator",
+	"description": "A simple algorithm that calculates if the cinema box clerk can sell a ticket to each person in the queue and give them change.",
+	"scripts": {
+		"test": "jest --no-cache ./*",
+		"watch": "jest --no-cache --watch ./*",
+		"lint": "eslint .",
+		"lint-test": "eslint . && jest --no-cache ./* "
+	},
+	"devDependencies": {
+		"@babel/core": "^7.15.0",
+		"@babel/eslint-parser": "^7.15.0",
+		"@babel/node": "^7.15.4",
+		"@babel/preset-env": "^7.15.0",
+		"babel-jest": "^27.0.6",
+		"eslint": "^7.32.0",
+		"eslint-config-prettier": "^8.3.0",
+		"eslint-plugin-import": "^2.24.1",
+		"eslint-plugin-jest": "^24.4.0",
+		"eslint-plugin-prettier": "^3.4.1",
+		"jest": "^27.0.6",
+		"prettier": "^2.3.2",
+		"shelljs": "^0.8.4"
+	},
+	"jest": {
+		"modulePathIgnorePatterns": [
+			"package.json"
+		]
+	},
+	"author": "Hugo Flotts",
+	"license": "MIT"
+}
